@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-square{
+    width: 1152px;
+    height: 1152px;
+    aspect-ratio: 1/1;
+    margin: 0 auto;
+}
+body{
+    background-color: #001532;
+    font-family: "Roboto", sans-serif;
+}
+
+.title{
+    color: #01E165;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.bold{
+    font-weight: 800;
+    color: #fff;
+}
+
+.bg{
+    background-color: #001532;
+    height: 100px;
+}
+
+.black{
+    background-color: black;
+    height: 100px;
+}
+
+.white{
+    background-color: #fff;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+    height: 100px;
+}
+
+.grey{
+    background-color: rgb(177, 177, 177);
+    height: 100px;
+}
+
+.blue-boolean{
+    max-height: 50px;
+    min-height: 50px;
+    background-color: #001532;
+}
+
+.green-fluo{
+    background-color: #01E165;
+}
+
+.opacity-50{
+    opacity: 50%;
+}
+.opacity-25{
+    opacity: 25%;
+}
+
+.h25{
+    height: 25px;
+}
+
+.h50{
+    height: 50px;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 992px) {
+    .container-square{
+        width: 576px;
+        height: 576px;
+    }
+
+    .bg{
+        height: 50px;
+    }
+    
+    .black{
+        height: 50px;
+    }
+    
+    .white{
+        height: 50px;
+    }
+    
+    .red{
+        height: 50px;
+    }
+    
+    .grey{
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .container-square{
+        width: 288px;
+        height: 288px;
+    }
+
+    .bg{
+        height: 25px;
+    }
+    
+    .black{
+        height: 25px;
+    }
+    
+    .white{
+        height: 25px;
+    }
+    
+    .red{
+        height: 25px;
+    }
+    
+    .grey{
+        height: 25px;
+    }
+}
+
+
+
+/* TEST */
+.pokeball{
+    transition: transform 0.5s ease-in-out; 
+}
+
+.pokeball:hover {
+    animation: shakeRotate 2s infinite;
+}
+
+@keyframes shakeRotate {
+    0%, 100% {
+        transform: rotate(0deg) translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: rotate(-15deg) translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: rotate(15deg) translateX(10px);
+    }
+}
