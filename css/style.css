@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ELEMENTS */
+.content{
+    background-color: #006DFA;
+}
+.inner-contet{
+    background-color: #01E165;
+}
+
+/* UTILITY */
+.txt-white{
+    color: #fff;
+}
