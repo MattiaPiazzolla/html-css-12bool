@@ -251,7 +251,7 @@
 
                                                 /* MD */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
     .col-md {
         flex-grow: 1;
         flex-basis:0;
@@ -371,7 +371,7 @@
 
                                                 /* LG */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 992px) {
     .col-lg {
         flex-grow: 1;
         flex-basis:0;
@@ -491,7 +491,7 @@
 
                                                 /* XL */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 1200px) {
     .col-xl {
         flex-grow: 1;
         flex-basis:0;
@@ -611,7 +611,7 @@
 
                                                 /* XXL */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 1400px) {
     .col-xxl {
         flex-grow: 1;
         flex-basis:0;
